@@ -40,6 +40,9 @@ const styles = makeStyles((theme) => ({
     color: "#7e8399",
     textTransform: "capitalize",
     lineHeight: "24px",
+    "& a": {
+     
+    },
   },
   previous: {
     "&:hover": {
@@ -47,9 +50,7 @@ const styles = makeStyles((theme) => ({
     },
   },
   current: {
-    "&:hover": {
-      color: "white",
-    },
+    
   },
   divider: {
     margin: "0px 5px",
