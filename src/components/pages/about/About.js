@@ -1,17 +1,22 @@
-import React from "react";
-import Footer from "../../shared/footer/Footer";
-import Header from "../../shared/header/Header";
-import Topnav from "../../shared/topnav/Topnav";
+import React from 'react';
+import Aboutbanner from '../about/Aboutbanner';
+import AboutSlider from './AboutSlider';
+import Certificate from './Certificate';
+import Counter from './Counter';
 
+import Team from './Team';
+import WhyUs from './WhyUs';
 const About = () => {
-  return (
-    <div>
-      <Topnav></Topnav>
-      <Header></Header>
-      <h1>About Page Content</h1>
-      <Footer></Footer>
-    </div>
-  );
+    return (
+        <div>
+            <AboutSlider></AboutSlider>
+            <Aboutbanner></Aboutbanner>
+            <Counter></Counter>
+            <Team></Team>
+            <WhyUs></WhyUs>
+            <Certificate></Certificate>
+        </div>
+    );
 };
 
 export default About;
