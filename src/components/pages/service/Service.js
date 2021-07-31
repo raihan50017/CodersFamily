@@ -1,12 +1,17 @@
 import React from "react";
 import Footer from "../../shared/footer/Footer";
 import Header from "../../shared/header/Header";
+import Topnav from "../../shared/topnav/Topnav";
+import OurServices from "./OurServices";
+import ServiceBanner from "./ServiceBanner";
 
 const Service = () => {
   return (
     <div>
+      <Topnav></Topnav>
       <Header></Header>
-      <h1>Service Page Content</h1>
+      <ServiceBanner></ServiceBanner>
+      <OurServices></OurServices>
       <Footer></Footer>
     </div>
   );
