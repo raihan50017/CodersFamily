@@ -27,6 +27,7 @@ import GroupIcon from '@material-ui/icons/Group';
         maxWidth: 445,
         display: "flex",
         marginLeft: "30px",
+        flexWrap: "wrap",
       },
       media: {
         paddingLeft: "90px",
@@ -36,6 +37,7 @@ import GroupIcon from '@material-ui/icons/Group';
         
         "& image":{
             height: "80px",
+            width: "100%",
 
         }
       },

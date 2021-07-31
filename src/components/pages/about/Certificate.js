@@ -20,9 +20,10 @@ import {
     },
     certificate: {
         display: 'flex',
+        flexWrap: "wrap",
         '& > *': {
           margin: theme.spacing(1),
-          width: theme.spacing(36),
+          width: theme.spacing(34),
           height: theme.spacing(26),
         },
   }}));
