@@ -158,6 +158,30 @@ textarea:focus {
     text-align: center;
 }
 
+@media only screen and (max-width: 500px) {
+    textarea {
+        width: 20em;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    textarea {
+        width: 18em;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    textarea {
+        width: 16em;
+    }
+}
+
+@media only screen and (max-width: 300x) {
+    textarea {
+        width: 15em;
+    }
+}
+
 @media only screen and (max-width: 992px) {
     .grid-block2 img {
         height: 500px;
